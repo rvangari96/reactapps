@@ -17,7 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "pm2start":"pm2 delete ReactAPP;pm2 serve build 5900 --spa --name ReactAPP"
   },
   "eslintConfig": {
     "extends": [
