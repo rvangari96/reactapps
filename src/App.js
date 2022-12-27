@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      Hello RV
+      Hello RV. This build is triggered from GITScm
     </div>
   );
 }
